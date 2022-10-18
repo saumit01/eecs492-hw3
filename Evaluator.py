@@ -3,7 +3,7 @@ This file contains the evaluator class used for computing the heuristic value of
 You DO NOT need to modify or edit this file.
 '''
 import chess
-import pickle
+import pickle5 as pickle
 
 # A modified version of the simplified evaluation function proopsed by by Tomasz Michniewski
 # See https://www.chessprogramming.org/Simplified_Evaluation_Function
