@@ -124,6 +124,6 @@ class SimplifiedEvaluator:
     def loadPST(self):
         # Dict of form {(chess.piece, chess.color):PST as a list} for non-king pieces
         # {(chess.king, chess.color, isEndgame):PST as a list} for king
-        with open('PieceSquareTables.pickle', 'rb') as handle:
+        with open('eecs492-hw3/PieceSquareTables.pickle', 'rb') as handle:
             pst = pickle.load(handle)
         return pst
